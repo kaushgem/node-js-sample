@@ -6,7 +6,7 @@ app.set('port', (process.env.PORT || 5000))
 app.use(express.static(__dirname + '/public'))
 
 app.get('/', function(request, response) {
-  response.send('Hello World! This is awesome!!!!')
+  response.send('Hello World! This is awesomeoooo awesome!!!!')
 })
 
 app.get('/contact', function(request, response) {
@@ -19,7 +19,7 @@ app.get('/email', function(request, response) {
 })
 
 app.get('/kaush', function(request, response) {
-  response.redirect(301, 'http://in.linkedin.com/kaushgem')
+  response.redirect(301, 'https://github.com/kaushgem')
 })
 
 app.listen(app.get('port'), function() {
