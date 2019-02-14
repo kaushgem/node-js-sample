@@ -22,6 +22,10 @@ app.get('/kaush', function(request, response) {
   response.redirect(301, 'https://github.com/kaushgem')
 })
 
+app.get('/youtube', function(request, response) {
+  response.redirect(301, 'https://youtube.com')
+})
+
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
 })
